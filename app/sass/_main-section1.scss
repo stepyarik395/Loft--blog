@@ -2,12 +2,8 @@
 	margin: 0;
 	padding: 0;
 }
-
-.main-section1{
-
-}
 .header-line{
-background-color: black;
+	background-color: #191919;
 }
 .wrapper{
 	height: 40px;
@@ -17,16 +13,13 @@ background-color: black;
 	margin-right: 375px;
 	margin-left:375px;
 }
-.links-list{
-
-}
-.1111{
+.wrapperlanguage{
 	display: flex;
 	align-items:center;
 
 }
 .img-language{
-padding-left: 15px;
+	padding-left: 15px;
 }
 .sign-in{
 	font-size: 12px;
@@ -35,63 +28,56 @@ padding-left: 15px;
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
+	font-weight: 400;
 	color:#8c8c8c;
 }
 .links-list ul {
-display: flex;
-list-style-type: none;
+	display: flex;
+	list-style-type: none;
 }
 .links-list ul li {
-margin-right: 14px;
+	margin-right: 14px;
 }
 .links-list ul li a {
-color:#707070;
-}
-
-.button-language{
-
+	color:#707070;
 }
 .Eng{
-font-size: 12px;
-text-decoration: none;
-font-family: 'Montserrat', sans-serif;
-color:#848484;
-text-transform: uppercase
+	font-size: 12px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color:#848484;
+	text-transform: uppercase;
 }
 .header-logo{
-margin-top: 20px;
-letter-spacing: 2px;
-
+	margin-top: 20px;
+	letter-spacing: 2px;
 }
 .bg2{
 	background: url("../img/Layer 66.jpg") no-repeat center top;
 }
 .bg-black{
-	
-	background-color: rgba(60,60,60,0.8);
-}
-.slider-arrows{
+	background: rgba(21,21,21,.87);
+	// background-color: #212121;
+	// opacity: .87;
 }
 .slider-arrows a{
 	color:#fff;
-	
 }
 .right-arrow{
-margin-right: 25px;
-margin-top: 18.9%;
-float: right;
+	margin-right: 25px;
+	margin-top: 18.9%;
+	float: right;
 }
 .right-arrow a{
 	font-size: 42px;
 }
 .left-arrow a{
-font-size: 42px;
+	font-size: 42px;
 }
 .left-arrow{
-margin-left: 33px;
-margin-top: 18.9%;
-float: left;
-
+	margin-left: 33px;
+	margin-top: 18.9%;
+	float: left;
 }
 .bg{
 	margin-right: 375px;
@@ -101,7 +87,6 @@ float: left;
 	justify-content:space-between;
 }
 .logo-text{
-
 	text-transform: uppercase;
 	font-size: 24px;
 	font-family: 'Montserrat', sans-serif;
@@ -109,24 +94,20 @@ float: left;
 	color:#fff;
 }
 .header-menu{
-margin-left: 106px;
-margin-top: 20px;
+	margin-left: 106px;
+	margin-top: 20px;
 }
 .header-menu ul {
-list-style-type: none;
-display: flex;
+	list-style-type: none;
+	display: flex;
 
 }
 .header-menu ul li {
 	font-size: 14px;
 	margin-right: 30px;
-
 }
 .fa-angle-down{
 	margin-left: 10px;
-}
-.header-menu ul li a i {
-
 }
 .header-menu ul li a {
 	text-transform: uppercase;
@@ -153,7 +134,6 @@ display: flex;
 	padding-right: 10px;
 	border-left: 1px solid#5c5c5b;
 	border-right: 1px solid#5c5c5b;
-
 }
 .main-content1{
 	margin-top: 235px;
@@ -167,8 +147,8 @@ display: flex;
 	font-size: 20px;
 }
 .main-content1__title{
-word-spacing: 5px;
-letter-spacing: 1px;
+	word-spacing: 5px;
+	letter-spacing: 1px;
 	color:#fff;
 	margin-top: 15px;
 	font-family: 'Montserrat', sans-serif;
@@ -190,7 +170,6 @@ letter-spacing: 1px;
 	color:#fff;
 	font-family: 'Montserrat', sans-serif;
 	cursor: pointer;
-
 }
 .mini-card{
 	margin-top: 80px;
@@ -202,7 +181,6 @@ letter-spacing: 1px;
 	font-weight: 700;
 	margin-top: 10px;
 	font-size: 14px;
-
 }
 .date{
 	color:#9c9c9c;
@@ -245,7 +223,6 @@ letter-spacing: 1px;
 .white-line__wrapper button{
 	margin-right: 15px;
 	font-family: 'Montserrat', sans-serif;
-
 }
 .white-line__wrapper button:hover{
 	background-color: #fff;
@@ -253,23 +230,21 @@ letter-spacing: 1px;
 	color:#5060bb;
 	cursor: pointer;
 }
-
 .small-button{
-border-radius:15px;
-border: none; 
-width: 80px;
-height: 30px;
-background-color: #f5f5f5;
-text-transform: uppercase;
-
+	border-radius:15px;
+	border: none; 
+	width: 80px;
+	height: 30px;
+	background-color: #f5f5f5;
+	text-transform: uppercase;
 }
 .big-button{
 	border-radius: 15px;
 	border: none;
-text-transform: uppercase;
-background-color: #f5f5f5;
-width: 150px;
-height: 30px;
+	text-transform: uppercase;
+	background-color: #f5f5f5;
+	width: 150px;
+	height: 30px;
 }
 .medium-button{
 	border: none;
@@ -278,5 +253,4 @@ height: 30px;
 	background-color: #f5f5f5;
 	width: 120px;
 	height: 30px;
-
 }

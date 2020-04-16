@@ -3,7 +3,7 @@
   padding: 0; }
 
 .header-line {
-  background-color: black; }
+  background-color: #191919; }
 
 .wrapper {
   height: 40px;
@@ -13,7 +13,7 @@
   margin-right: 375px;
   margin-left: 375px; }
 
-.1111 {
+.wrapperlanguage {
   display: flex;
   align-items: center; }
 
@@ -27,6 +27,7 @@
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+  font-weight: 400;
   color: #8c8c8c; }
 
 .links-list ul {
@@ -54,7 +55,7 @@
   background: url("../img/Layer 66.jpg") no-repeat center top; }
 
 .bg-black {
-  background-color: rgba(60, 60, 60, 0.8); }
+  background: rgba(21, 21, 21, 0.87); }
 
 .slider-arrows a {
   color: #fff; }
