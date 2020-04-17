@@ -4,13 +4,13 @@
 }
 .main-post__container{
 	width: 820px;
-	margin-left: 375px;
+	margin-left: 37.5rem;
 }
 .image-block{
-	margin-top: 30px;
+	margin-top: 3rem;
 }
 .play-one{
-	bottom: 235px;
+	bottom: 23.5rem;
 	display: flex;
 	justify-content:center;
 	position: relative;
@@ -19,34 +19,33 @@
 	position: absolute;
 }
 .post__signatures__container{
-	margin-bottom: -63px;
+	margin-bottom: -6.3rem;
 	position: relative;
-	bottom: 60px;
+	bottom: 6rem;
 	display: flex;
 	justify-content:space-between;
 }
 .name-post{
-	margin: 20px;
-
+	margin: 2rem;
 }
 .name-post span{
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 1.2rem;
 	color:#fff;
 }
 .wrapper__comment__block{
-	margin: 20px;
+	margin: 2rem;
 	display: flex;
 }
 .comment{
 	display: flex;
-	margin-right: 15px;
+	margin-right: 1.5rem;
 
 }
 .comment span{
-	margin-left: 10px;
-	font-size: 12px;
+	margin-left: 1rem;
+	font-size: 1.2rem;
 	font-family: 'Montserrat', sans-serif;
 	color:#fff;
 }
@@ -55,8 +54,8 @@
 	align-items:center;
 }
 .like span{
-	margin-left: 10px;
-	font-size: 12px;
+	margin-left: 1rem;
+	font-size: 1.2rem;
 	font-family: 'Montserrat', sans-serif;
 	color:#fff;
 }
@@ -68,19 +67,19 @@
 }
 .title__description-block{
 	word-spacing: 3px;
-	padding-top: 15px;
-	padding-bottom: 10px;
-	margin-left: 20px;
+	padding-top: 1.5rem;
+	padding-bottom: 1rem;
+	margin-left: 2rem;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 1.8rem;
 }
 .text____description-block{
-	margin-left: 20px;
-	margin-right: 40px;
-	padding-bottom: 20px;
+	margin-left: 2rem;
+	margin-right: 4rem;
+	padding-bottom: 2rem;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 1.6rem;
 }
 .separating-line{
 	height: 1px;
@@ -92,31 +91,31 @@
 	justify-content:space-between;
 }
 .user-name-block{
-	margin-top: 20px;
-	margin-left: 20px;
-	padding-bottom: 20px;
+	margin-top: 2rem;
+	margin-left: 2rem;
+	padding-bottom: 2rem;
 	align-items:center;
 	display: flex;
 }
 .name-date{
-	margin-left: 10px;
+	margin-left: 1rem;
 }
 .name-user{
 	letter-spacing: 0.5px;
 	display: inline-block;
 	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 1.4rem;
 	margin-bottom: 5px;
 
 }
 .date-user{
 	font-family: 'Open Sans', sans-serif;
 	color:#878787;
-	font-size: 12px;
+	font-size: 1.2rem;
 }
 .horizontal__post{
-	margin-top: 20px;
+	margin-top: 2rem;
 }
 .wrapper__horizontal__post{
 	border-radius: 5px;
@@ -126,7 +125,7 @@
 }
 .wrapper__icon__play{
 	position: relative;
-	bottom:110px;
+	bottom:11rem;
 	display: flex;
 	justify-content:center;
 }
@@ -134,7 +133,7 @@
 	position: absolute;
 }
 .horizontal__post__signatures__container{
-	top:-35px;
+	top:-3.5rem;
 	position: relative;
 	display: flex;
 	justify-content:space-between;
@@ -146,23 +145,23 @@
 	display: flex;
 }
 .name-post__horizontal__post{
-	margin-left: 20px;
+	margin-left: 2rem;
 	span{
 		text-transform: uppercase;
-		font-size: 12px;
+		font-size: 1.2rem;
 		font-family: 'Montserrat', sans-serif;
 		color:#fff;
 	}
 }
 .number-comment{
-	font-size: 12px;
-	margin-left: 10px;
-	margin-right: 20px;
+	font-size: 1.2rem;
+	margin-left: 1rem;
+	margin-right: 2rem;
 	color:#fff;
 }
 .number-like{
-	font-size: 12px;
-	margin-right: 20px;
+	font-size: 1.2rem;
+	margin-right: 2rem;
 	color:#fff;
 }
 .flex__container___numbers{
@@ -170,22 +169,22 @@
 	align-items:center;
 }
 .horizontal__post__title__name{
-	margin-top: 10px;
-	margin-left: 15px;
-	font-size: 16px;
+	margin-top: 1rem;
+	margin-left: 1.5rem;
+	font-size: 1.6rem;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
 .horizontal__post__text{
-	margin: 15px;
+	margin: 1.5rem;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 1.4rem;
 	color:#595959;
 
 }
 .flex-container__horizontal__post{
-	margin-top: 10px;
-	margin-left: 10px;
+	margin-top: 1rem;
+	margin-left: 1rem;
 	display: flex;
 	align-items:center;
 	justify-content:space-between;
@@ -195,32 +194,32 @@
 	display: flex;
 }
 .user-name-img__horizontal__post img{
-margin-left: 10px;
+margin-left: 1rem;
 }
 .name-date__horizontal__post{
-margin-left: 10px;
+margin-left: 1rem;
 
 }
 
 .name-user__horizontal__post{
 	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 .date-user__horizontal__post{
 	margin-top:5px;
 	display: block;
 	font-family: 'Open Sans', sans-serif;
 	color:#878787;
-	font-size: 12px;
+	font-size: 1.2rem;
 }
 .vertical-post{
 	display: flex;
 }
 .wrapper__vertical-post{
-	margin-right: 20px;
+	margin-right: 2rem;
 	background-color: #fff;
-	margin-top: 20px;
+	margin-top: 2rem;
 	height:460px;
 	width: 260px;
 
@@ -228,8 +227,8 @@ margin-left: 10px;
 .white-square{
 	float: left;
 	display: flex;
-	justify-content:center;
-	align-items:center;
+	justify-content: center;
+	align-items: center;
 	width: 35px;
 	height: 35px;
 	background-color: red;
@@ -237,18 +236,18 @@ margin-left: 10px;
 .white-square2{
 	float: right;
 	display: flex;
-	justify-content:center;
-	align-items:center;
+	justify-content: center;
+	align-items: center;
 	width: 35px;
 	height: 35px;
 	background-color: red;
 
 }
-.title__card{
+.title__vertical-post{
 	font-family: 'Montserrat', sans-serif;
-	margin-left: 20px;
+	margin-left: 2rem;
 	font-weight: 700;
-	font-size:14px;
+	font-size:1.4rem;
 }
 .color-blue{
 	color:#4b5cba;
@@ -257,46 +256,46 @@ margin-left: 10px;
 	font-family: 'Montserrat', sans-serif;
 	margin-left: 20px;
 	font-weight: 700;
-	font-size:18px;
+	font-size:1.8rem;
 }
-.offer__card{
-	margin-left: 20px;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	font-family: 'Open Sans', sans-serif;
-	font-size:14px ;
-}
+// .offer__card{
+// 	margin-left: 2rem;
+// 	margin-top: 1rem;
+// 	margin-bottom: 20px;
+// 	font-family: 'Open Sans', sans-serif;
+// 	font-size:14px ;
+// }
 .margin-top{
-	margin-top: 20px;
+	margin-top: 2rem;
 }
 .wrapper__medium__vertical__post{
-	margin-right: 20px;
+	margin-right: 2rem;
 	background-color: #fff;
 	margin-top: 20px;
 	height:540px;
 	width: 400px;
 }
 .button-more{
-	margin-top: 43px;
+	margin-top: 4.3rem;
 	display: flex;
 	justify-content:flex-end;
 	align-items:center;
-	margin-bottom: 43px;
+	margin-bottom: 4.3rem;
 }
 .button-more span {
 	color:#3c4aa4;
 	font-family: 'Montserrat', sans-serif;
-	font-size:16px;
+	font-size:1.6rem;
 	font-weight: 600;
 }
 .button-arrow{
 	cursor: pointer;
 	outline: none;
-	margin-left: 10px;
+	margin-left: 1rem;
 	color:#3c4aa4;
 	border: 1px solid#f5f5f5;
 	background-color: #fff;
-	border-radius: 20px;
+	border-radius: 2rem;
 	width: 40px;
 	height: 40px;
 }
