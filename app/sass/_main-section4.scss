@@ -1,5 +1,5 @@
 .main-section4{
-background-color: #212121;
+	background-color: #212121;
 }
 .wrapper__main-section4{
 	display: flex;
@@ -16,8 +16,8 @@ background-color: #212121;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 18px;
-color:#fff;
-margin-bottom: 30px;
+	color:#fff;
+	margin-bottom: 30px;
 }
 .social{
 	margin-top: 15px;
@@ -43,9 +43,9 @@ margin-bottom: 30px;
 	display: flex;
 	justify-content:space-between;
 	align-items:center;
-width: 270px;
-height: 45px;
-border:1px solid#757575;
+	width: 270px;
+	height: 45px;
+	border:1px solid#757575;
 }
 .wiget-line a{
 	color:#757575;
@@ -85,16 +85,14 @@ border:1px solid#757575;
 	font-size: 14px;
 	color:#bdbdbd;
 	font-family: 'Open Sans', sans-serif;
+}
 
-}
-.second-word{
-}
 .list-info{
-width: 270px;
-display: block;
-list-style-type: none;
-display: flex;
-margin-bottom: 10px;
+	width: 270px;
+	display: block;
+	list-style-type: none;
+	display: flex;
+	margin-bottom: 10px;
 }
 .line-list-info{
 	border-bottom: 1px solid#3c3c3c;
@@ -109,8 +107,6 @@ margin-bottom: 10px;
 }
 .list-info li a{
 	color:#898989;
-
-	
 }
 .social-links__social-wiget{
 	display: flex;
@@ -159,12 +155,11 @@ margin-bottom: 10px;
 	width: 272px;
 	border: none;
 	text-transform: uppercase;
-
+	cursor: pointer;
 }
 #name-input{
-padding: 0 10px;
+	padding: 0 10px;
 }
 #email-input{
 	padding: 0 10px;
-
 }

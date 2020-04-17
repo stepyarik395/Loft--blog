@@ -139,7 +139,7 @@
 	display: flex;
 	justify-content:space-between;
 }
-.comment__small-post1{
+.comment__flex__container{
 	display: flex;
 }
 .ike__small-post1{
@@ -206,9 +206,10 @@ margin-left: 10px;
 	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-
 }
 .date-user__horizontal__post{
+	margin-top:5px;
+	display: block;
 	font-family: 'Open Sans', sans-serif;
 	color:#878787;
 	font-size: 12px;
@@ -249,7 +250,10 @@ margin-left: 10px;
 	font-weight: 700;
 	font-size:14px;
 }
-.title__card2{
+.color-blue{
+	color:#4b5cba;
+}
+.title__medium__vertical__post{
 	font-family: 'Montserrat', sans-serif;
 	margin-left: 20px;
 	font-weight: 700;
@@ -265,7 +269,7 @@ margin-left: 10px;
 .margin-top{
 	margin-top: 20px;
 }
-.card2{
+.wrapper__medium__vertical__post{
 	margin-right: 20px;
 	background-color: #fff;
 	margin-top: 20px;
@@ -283,6 +287,7 @@ margin-left: 10px;
 	color:#3c4aa4;
 	font-family: 'Montserrat', sans-serif;
 	font-size:16px;
+	font-weight: 600;
 }
 .button-arrow{
 	cursor: pointer;
@@ -332,4 +337,9 @@ margin-left: 10px;
 .arrow__block{
 	position: relative;
 }
-
+.medium__vertical__post{
+	display: flex;
+}
+.container__medium__vertical__post{
+	display: flex;
+}

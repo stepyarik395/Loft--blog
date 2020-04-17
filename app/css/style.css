@@ -401,7 +401,7 @@
   display: flex;
   justify-content: space-between; }
 
-.comment__small-post1 {
+.comment__flex__container {
   display: flex; }
 
 .ike__small-post1 {
@@ -466,6 +466,8 @@
   font-size: 14px; }
 
 .date-user__horizontal__post {
+  margin-top: 5px;
+  display: block;
   font-family: 'Open Sans', sans-serif;
   color: #878787;
   font-size: 12px; }
@@ -504,7 +506,10 @@
   font-weight: 700;
   font-size: 14px; }
 
-.title__card2 {
+.color-blue {
+  color: #4b5cba; }
+
+.title__medium__vertical__post {
   font-family: 'Montserrat', sans-serif;
   margin-left: 20px;
   font-weight: 700;
@@ -520,7 +525,7 @@
 .margin-top {
   margin-top: 20px; }
 
-.card2 {
+.wrapper__medium__vertical__post {
   margin-right: 20px;
   background-color: #fff;
   margin-top: 20px;
@@ -537,7 +542,8 @@
 .button-more span {
   color: #3c4aa4;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  font-weight: 600; }
 
 .button-arrow {
   cursor: pointer;
@@ -586,6 +592,12 @@
 
 .arrow__block {
   position: relative; }
+
+.medium__vertical__post {
+  display: flex; }
+
+.container__medium__vertical__post {
+  display: flex; }
 
 .aside-wrapper {
   margin-left: 40px;
@@ -727,6 +739,7 @@
   display: flex; }
 
 .ellepse-link {
+  cursor: pointer;
   margin-right: 10px;
   display: flex;
   justify-content: center;
@@ -769,22 +782,26 @@
   margin-top: 20px; }
 
 .wiget-buttons {
+  cursor: pointer;
   width: 135px;
   background-color: #3f51b5;
   height: 40px;
   text-transform: uppercase;
   color: #fff;
   border: none;
-  border-radius: 5px 0 0 5px; }
+  border-radius: 5px 0 0 5px;
+  font-size: 13px; }
 
 .wiget-buttons1 {
+  cursor: pointer;
   width: 135px;
   background-color: #fff;
   height: 40px;
   text-transform: uppercase;
   color: #3f51b5;
   border: 1px solid #3f51b5;
-  border-radius: 0 5px 5px 0; }
+  border-radius: 0 5px 5px 0;
+  font-size: 13px; }
 
 .wiget__user-post {
   margin-top: 20px;
@@ -874,7 +891,9 @@
   width: 270px;
   height: 45px;
   border-radius: 40px;
-  border: 1px solid #747577; }
+  border: 1px solid #747577;
+  font-size: 16px;
+  font-weight: 400; }
 
 .button__main-section2 {
   font-weight: 400;
@@ -1042,7 +1061,8 @@
   height: 40px;
   width: 272px;
   border: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  cursor: pointer; }
 
 #name-input {
   padding: 0 10px; }
