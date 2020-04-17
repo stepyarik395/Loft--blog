@@ -395,9 +395,6 @@
 .play-img {
   position: absolute; }
 
-.img__horizontal__post {
-  vertical-align: bottom; }
-
 .horizontal__post__signatures__container {
   top: -35px;
   position: relative;
@@ -473,10 +470,10 @@
   color: #878787;
   font-size: 12px; }
 
-.Tripple-coment-container2 {
+.vertical-post {
   display: flex; }
 
-.card {
+.wrapper__vertical-post {
   margin-right: 20px;
   background-color: #fff;
   margin-top: 20px;
@@ -559,6 +556,36 @@
 .name-user__small-post1 {
   display: inline-block;
   margin-bottom: 5px; }
+
+.container-vertical-post {
+  display: flex; }
+
+.left-arrow__vertical-post {
+  cursor: pointer;
+  left: 10px;
+  bottom: 70px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white; }
+
+.right-arrow__vertical-post {
+  cursor: pointer;
+  bottom: 70px;
+  right: 10px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white; }
+
+.arrow__block {
+  position: relative; }
 
 .aside-wrapper {
   margin-left: 40px;
