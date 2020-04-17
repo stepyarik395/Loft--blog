@@ -9,7 +9,7 @@
 </head>
 <body>
 <section class = "main-section1">
-	<div class = "header-line">
+	<header class = "header-line">
 		<div class = "wrapper">
 			<div class = "links-list">
 				<ul>
@@ -31,7 +31,7 @@
 				<a href = "#" class = "arrow-down"><i class="fas fa-angle-down"></i></a>
 			</div>
 		</div>
-	</div>
+	</header>
 	<div class = "bg2">
 		<div class = "bg-black">
 			<div class = "slider-arrows">
@@ -58,8 +58,8 @@
 			</ul>
 		</div>
 		<div class = "header-functions">
-		 <a href = "#"><i class="fas fa-search"></i></a>
-		 <a href = "#" class ="vertical-line"><i class="far fa-heart"></i></a>
+		 <a class = "elem1" href = "#"><i class="fas fa-search"></i></a>
+		 <a class = "elem2" href = "#"><i class="far fa-heart"></i></a>
 		 <a href = "#"><i class="fas fa-shopping-cart"></i></a>
 		</div>
 </div>
@@ -80,7 +80,7 @@
 			<span class ="date">April 28. 2016 10:15</span>
 				<div class = "mini-card__functions">
 					<img src = "img/forum.png">
-						<a href = "#">Comments( 28 )</a>
+						<a href = "#">Comments( 28)</a>
 						<img src = "img/favorite_border.png">
 						<a href = "#">Likes(07)</a>
 				</div>
@@ -101,56 +101,53 @@
 	</div>
 </section>
 
-<div class = global-blox>
-	<div class = "gray-bg">
-		<div class = "main-post">
-			<div class = "image-main-post">
-				<img class = "main-img" src = "img/Box.png">
-				<div class = "play-one">
-					<img  class = "img-play"src = "img/play_circle_outline.png">
-				</div>	
-						<div class = "Clasification-box">
-							<div class = "name-post">
-								<span>Lifestile</span>
-							</div>
-							<div class ="coment-like-box">
-								<div class ="comment">
-									<img src = "img/forum.png">
-									<span>7</span>
-								</div> <!--comment-->
-								<div class ="like">
-									<img src = "img/favorite_border.png">
-									<span>7</span>
-								</div><!--like-->
-							</div> <!--coment-like-box--> 
-						</div><!--Clasification-box-->
-					</div>
-							<div class = "white-wrapper">
-								<h4 class = "title-main-post">
-									10 things To Do Change Your Life Forever
-								</h4>
-								<p class = "offer-main-post">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione tempore cum qui laudantium, molestias perferendis, voluptatem reiciendis labore tenetur!
-								</p>
-								<div class = "separating-line">
+<section class = "main-section2">
+	<div class = global-main-container>
+		<div class = "gray-bg">
+			<div class = "main-post">
+				<div class = "image-block">
+			 		<img class = "main-img" src = "img/Box.png">
+					<div class = "play-one">
+						<img  class = "img-play"src = "img/play_circle_outline.png">
+					</div>	
+					<div class = "post__signatures__container">
+			 			<div class = "name-post">
+			  			<span>Lifestile</span>
+						</div>
+						<div class ="wrapper__comment__block">
+			 				<div class ="comment">
+				 				<img src = "img/forum.png">
+								<span>7</span>
+							</div> <!--comment-->
+							<div class ="like">
+								<img src = "img/favorite_border.png">
+								<span>7</span>
+							</div><!--like-->
+						</div> <!--wrapper__comment__block--> 
+					</div><!--post__signatures__container-->
+				</div><!--image-block-->
+				<div class = "description-block">
+					<h4 class = "title__description-block">
+					10 things To Do Change Your Life Forever</h4>
+					<p class = "text____description-block">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione tempore cum qui laudantium, molestias perferendis, voluptatem reiciendis labore tenetur!</p>
+						<div class = "separating-line"></div>
+						<div class = "flex-container">
+							<div class ="user-name-block">
+								<div class = "user-name-img">
+									<img src = "img/Photo.png">
 								</div>
-
-								<div class = "flex-container">
-									<div class ="user-name-box">
-										<div class = "user-name-img">
-											<img src = "img/Photo.png">
-										</div>
-											<div class = "name-date">
-												<span class = "name-user"> Henry Little</span>
-												<br>
-												<span class = "date-user">April 28. 2016 2015</span>
-											</div>
-									</div> <!--user-name-box-->
-										<div class = "tripple-dots">
-											<img src = "img/more_vert.png">
-										</div>
-									</div><!--flex-container-->
-								</div><!--white-wrapper-->
+								<div class = "name-date">
+									<span class = "name-user"> Henry Little</span>
+									<br>
+									<span class = "date-user">April 28. 2016 2015</span>
+								</div>
+							</div> <!--user-name-box-->
+								<div class = "tripple-dots">
+									<img src = "img/more_vert.png">
+								</div>
+						</div><!--flex-container-->
+					</div><!--white-wrapper-->
 						<div class = "Tripple-coment-container">
 							<div class = "small-post1">
 								<div class ="small-post1__img">
@@ -790,6 +787,7 @@
 		</div><!--Close aside-->
 	</div>
 </div>
+</section>
 
 <div class  = "photo-line">
 	<img src = "img/5.png">

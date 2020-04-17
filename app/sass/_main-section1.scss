@@ -3,7 +3,7 @@
 	padding: 0;
 }
 .header-line{
-	background-color: #191919;
+	background-color: black;
 }
 .wrapper{
 	height: 40px;
@@ -40,6 +40,13 @@
 }
 .links-list ul li a {
 	color:#707070;
+	&:hover{
+		transition: all 500ms;
+		text-shadow: 1px 1px 1px white, 0 0 1em white;
+		}
+}
+.tripple-dots{
+	cursor: pointer;
 }
 .Eng{
 	font-size: 12px;
@@ -54,11 +61,11 @@
 }
 .bg2{
 	background: url("../img/Layer 66.jpg") no-repeat center top;
+	background-size: cover;
+
 }
 .bg-black{
 	background: rgba(21,21,21,.87);
-	// background-color: #212121;
-	// opacity: .87;
 }
 .slider-arrows a{
 	color:#fff;
@@ -125,15 +132,19 @@
 	margin-top: 27px;
 }
 .header-functions a{
+	display: inline-block;
+	width:20px;
+	padding:10px;
 	font-size: 18px;
-	margin: 5px;
 	color:#fff;
 }
-.vertical-line{
-	padding-left: 10px;
-	padding-right: 10px;
-	border-left: 1px solid#5c5c5b;
-	border-right: 1px solid#5c5c5b;
+.header-functions a{
+	&:nth-child(1){
+		border-right:1px solid #5c5c5b;
+	}
+	&:nth-child(2){
+		border-right:1px solid #5c5c5b;
+	}
 }
 .main-content1{
 	margin-top: 235px;
@@ -157,6 +168,7 @@
 	text-transform: uppercase;
 }
 .main-content1__button{
+	outline: none;
 	word-spacing: 3px;
 	font-size: 16px;
 	letter-spacing: 1px;
@@ -170,6 +182,10 @@
 	color:#fff;
 	font-family: 'Montserrat', sans-serif;
 	cursor: pointer;
+	&:active{
+		box-shadow: 0 0 0 1px white;
+  	transform: translateY(4px);
+	}
 }
 .mini-card{
 	margin-top: 80px;
