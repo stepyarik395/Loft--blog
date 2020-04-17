@@ -574,6 +574,8 @@ html {
   justify-content: center;
   align-items: center;
   background-color: white; }
+  .left-arrow__vertical-post i {
+    font-size: 1.3rem; }
 
 .right-arrow__vertical-post {
   cursor: pointer;
@@ -586,6 +588,8 @@ html {
   justify-content: center;
   align-items: center;
   background-color: white; }
+  .right-arrow__vertical-post i {
+    font-size: 1.3rem; }
 
 .arrow__block {
   position: relative; }
@@ -1027,7 +1031,7 @@ html {
   margin-right: 8px;
   vertical-align: bottom; }
 
-.News-letter input {
+.news-letter input {
   margin-bottom: 1rem;
   color: #fff;
   outline: none;
@@ -1038,8 +1042,9 @@ html {
   border-radius: 5px; }
 
 #big-input {
-  padding: 0 10px;
-  height: 120px; }
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 12rem; }
 
 .button__letter {
   outline: none;

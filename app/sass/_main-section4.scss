@@ -3,7 +3,6 @@
 }
 .wrapper__main-section4{
 	display: flex;
-
 }
 .pages-widget{
 	margin-right: 3rem;
@@ -84,7 +83,6 @@
 	color:#bdbdbd;
 	font-family: 'Open Sans', sans-serif;
 }
-
 .list-info{
 	width: 270px;
 	display: block;
@@ -101,7 +99,6 @@
 	margin-right: 1rem;
 	margin-bottom: 1rem;
 	color:#898989;
-
 }
 .list-info li a{
 	color:#898989;
@@ -117,7 +114,7 @@
 	margin-right: 8px;
 	vertical-align: bottom;
 }
-.News-letter input{
+.news-letter input{
 	margin-bottom: 1rem;
 	color:#fff;
 	outline: none;
@@ -128,8 +125,9 @@
 	border-radius: 5px;
 }
 #big-input{
-	padding: 0 10px;
-	height: 120px;
+	padding-left:1rem;
+	padding-right:1rem;
+	padding-bottom:12rem;
 }
 .button__letter{
 	outline: none;
