@@ -619,6 +619,8 @@ html {
   width: 35px;
   height: 35px;
   background-color: #ff4081; }
+  .pink-ellepse i {
+    font-size: 1.6rem; }
 
 .wrapper-aside-block {
   position: relative;
