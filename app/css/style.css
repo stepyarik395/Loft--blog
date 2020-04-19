@@ -193,7 +193,8 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   display: block;
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-weight: 500; }
 
 .mini-card__functions {
   padding-bottom: 70px;
@@ -205,7 +206,8 @@ html {
   font-size: 1.2rem;
   margin-right: 3rem;
   text-decoration: none;
-  color: #bdbdbd; }
+  color: #bdbdbd;
+  font-weight: 500; }
 
 .sort {
   border-bottom: 1px solid #dddddd; }
@@ -370,9 +372,10 @@ html {
   margin-bottom: 5px; }
 
 .date-user {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #878787;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  font-weight: 500; }
 
 .horizontal__post {
   margin-top: 2rem; }
@@ -416,12 +419,14 @@ html {
   font-size: 1.2rem;
   margin-left: 1rem;
   margin-right: 2rem;
-  color: #fff; }
+  color: #fff;
+  font-family: 'Montserrat', sans-serif; }
 
 .number-like {
   font-size: 1.2rem;
   margin-right: 2rem;
-  color: #fff; }
+  color: #fff;
+  font-family: 'Montserrat', sans-serif; }
 
 .flex__container___numbers {
   display: flex;
@@ -438,7 +443,8 @@ html {
   margin: 1.5rem;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.4rem;
-  color: #595959; }
+  color: #595959;
+  font-weight: 500; }
 
 .flex-container__horizontal__post {
   margin-top: 1rem;
@@ -458,14 +464,15 @@ html {
   margin-left: 1rem; }
 
 .name-user__horizontal__post {
-  font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem; }
 
 .date-user__horizontal__post {
   margin-top: 5px;
   display: block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   color: #878787;
   font-size: 1.2rem; }
 
@@ -499,7 +506,7 @@ html {
 
 .title__vertical-post {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 2rem;
+  margin-left: 1.7rem;
   font-weight: 700;
   font-size: 1.4rem; }
 
@@ -508,7 +515,7 @@ html {
 
 .title__medium__vertical__post {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 20px;
+  margin-left: 1.5rem;
   font-weight: 700;
   font-size: 1.8rem; }
 
@@ -627,7 +634,10 @@ html {
   top: 2.3rem;
   left: 23rem; }
 
-#input {
+#input-search-aside {
+  color: #d0d0d0;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
   margin-top: 2rem;
   border: none;
   border-radius: 20px;
@@ -644,6 +654,9 @@ html {
 
 .box-search {
   margin-top: 3rem; }
+  .box-search ::placeholder {
+    color: black;
+    opacity: .3; }
 
 .title__categories {
   margin-top: 3rem;
@@ -842,25 +855,25 @@ html {
   height: 30px;
   border-radius: 5px; }
 
-.Photography {
+.photography {
   width: 120px; }
 
-.Webdesign {
+.pebdesign {
   width: 110px; }
 
-.Youtube {
+.youtube {
   width: 100px; }
 
-.Evanto {
+.evanto {
   width: 80px; }
 
-.Art {
+.art {
   width: 60px; }
 
-.Themefortest {
+.themefortest {
   width: 130px; }
 
-.Ilustration {
+.ilustration {
   width: 110px; }
 
 .main-section3 {

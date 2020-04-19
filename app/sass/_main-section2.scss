@@ -41,7 +41,6 @@
 .comment{
 	display: flex;
 	margin-right: 1.5rem;
-
 }
 .comment span{
 	margin-left: 1rem;
@@ -107,12 +106,12 @@
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.4rem;
 	margin-bottom: 5px;
-
 }
 .date-user{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color:#878787;
 	font-size: 1.2rem;
+	font-weight: 500;
 }
 .horizontal__post{
 	margin-top: 2rem;
@@ -158,11 +157,13 @@
 	margin-left: 1rem;
 	margin-right: 2rem;
 	color:#fff;
+	font-family: 'Montserrat', sans-serif;
 }
 .number-like{
 	font-size: 1.2rem;
 	margin-right: 2rem;
 	color:#fff;
+	font-family: 'Montserrat', sans-serif;
 }
 .flex__container___numbers{
 	display: flex;
@@ -180,7 +181,7 @@
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.4rem;
 	color:#595959;
-
+	font-weight: 500;
 }
 .flex-container__horizontal__post{
 	margin-top: 1rem;
@@ -194,22 +195,21 @@
 	display: flex;
 }
 .user-name-img__horizontal__post img{
-margin-left: 1rem;
+	margin-left: 1rem;
 }
 .name-date__horizontal__post{
-margin-left: 1rem;
-
+	margin-left: 1rem;
 }
-
 .name-user__horizontal__post{
-	font-weight: 700;
-	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1.4rem;
 }
 .date-user__horizontal__post{
 	margin-top:5px;
 	display: block;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 	color:#878787;
 	font-size: 1.2rem;
 }
@@ -222,7 +222,6 @@ margin-left: 1rem;
 	margin-top: 2rem;
 	height:460px;
 	width: 260px;
-
 }
 .white-square{
 	float: left;
@@ -241,11 +240,10 @@ margin-left: 1rem;
 	width: 35px;
 	height: 35px;
 	background-color: red;
-
 }
 .title__vertical-post{
 	font-family: 'Montserrat', sans-serif;
-	margin-left: 2rem;
+	margin-left: 1.7rem;
 	font-weight: 700;
 	font-size:1.4rem;
 }
@@ -254,7 +252,7 @@ margin-left: 1rem;
 }
 .title__medium__vertical__post{
 	font-family: 'Montserrat', sans-serif;
-	margin-left: 20px;
+	margin-left: 1.5rem;
 	font-weight: 700;
 	font-size:1.8rem;
 }

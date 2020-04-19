@@ -34,7 +34,10 @@
 	top:2.3rem;
 	left: 23rem;
 }
-#input{
+#input-search-aside{
+	color:#d0d0d0;
+	letter-spacing: 1px;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 2rem;
 	border: none;
 	border-radius: 20px;
@@ -51,6 +54,10 @@
 }
 .box-search{
 	margin-top: 3rem;
+	::placeholder{
+		color:black;
+		opacity: .3;
+	}
 }
 .title__categories{
 	margin-top: 3rem;
@@ -253,24 +260,24 @@
 	height: 30px;
 	border-radius: 5px;
 }
-.Photography{
+.photography{
 	width: 120px;
 }
-.Webdesign{
+.pebdesign{
 	width: 110px;
 }
-.Youtube{
+.youtube{
 	width: 100px;
 }
-.Evanto{
+.evanto{
 	width: 80px;
 }
-.Art{
+.art{
 	width: 60px;
 }
-.Themefortest{
+.themefortest{
 	width: 130px;
 }
-.Ilustration{
+.ilustration{
 	width: 110px;
 }

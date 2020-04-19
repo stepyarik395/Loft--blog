@@ -104,7 +104,6 @@ html{
 .header-menu ul {
 	list-style-type: none;
 	display: flex;
-
 }
 .header-menu ul li {
 	font-size: 1.4rem;
@@ -120,7 +119,6 @@ html{
 	text-decoration: none;
 	color:#fff;
 	padding-bottom: 2.5rem;
-
 }
 .header-menu ul li a:hover{
 	border-bottom: 3px solid#ff4081;
@@ -201,6 +199,7 @@ html{
 	font-size: 1.2rem;
 	display: block;
 	margin-top: 10px;
+	font-weight: 500;
 }
 .mini-card__functions{
 	padding-bottom: 70px;
@@ -213,6 +212,7 @@ html{
 	margin-right:3rem;
 	text-decoration: none;
 	color:#bdbdbd;
+	font-weight: 500;
 }
 .sort{
 	border-bottom: 1px solid#dddddd;
