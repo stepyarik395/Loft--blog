@@ -970,6 +970,8 @@ html {
   width: 270px;
   height: 45px;
   border: 1px solid #757575; }
+  .wiget-line i {
+    font-size: 1.5rem; }
 
 .wiget-line a {
   color: #757575;
